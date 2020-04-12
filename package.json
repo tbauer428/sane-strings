@@ -1,6 +1,6 @@
 {
   "name": "sane-strings",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a library for sane operations of strings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
