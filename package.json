@@ -1,6 +1,6 @@
 {
   "name": "sane-strings",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "a library for sane operations of strings",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,9 @@
   },
   "author": "Thomas Bauer",
   "license": "MIT",
-  "keywords": ["demo"],
+  "keywords": [
+    "demo"
+  ],
   "bugs": {
     "url": "https://github.com/tbauer428/sane-strings/issues"
   },
