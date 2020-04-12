@@ -8,3 +8,17 @@ function reverse(stringToBeReversed) {
     return newStringArray.join("");
 }
 exports.reverse = reverse;
+;
+function beSarcastic(stringToBeSarcastisized) {
+    var sarcastisizedStringArray = [""];
+    for (var i = 0; i < stringToBeSarcastisized.length; i++) {
+        if (i % 2 == 0) {
+            sarcastisizedStringArray.push(stringToBeSarcastisized.charAt(i).toUpperCase().toString());
+        }
+        else {
+            sarcastisizedStringArray.push(stringToBeSarcastisized.charAt(i).toString());
+        }
+    }
+    return sarcastisizedStringArray.join("");
+}
+exports.beSarcastic = beSarcastic;

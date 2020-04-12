@@ -1,1 +1,1 @@
-export { reverse } from './App'
+export { reverse, beSarcastic } from './App'
